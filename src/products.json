@@ -2,7 +2,7 @@
   {
     "id": "commissions-1",
     "category": "commissions",
-    "title": "Commissions creation 1",
+    "title": "Custom cloned pet plushie",
     "images": [
       "products/commissions-grouped-1-1.jpeg",
       "products/commissions-grouped-1-2.jpeg",
@@ -12,7 +12,7 @@
   {
     "id": "commissions-2",
     "category": "commissions",
-    "title": "Commissions creation 2",
+    "title": "Custom monogrammed baby blanket",
     "images": [
       "products/commissions-grouped-2-1.jpeg",
       "products/commissions-grouped-2-2.jpeg"
@@ -21,7 +21,7 @@
   {
     "id": "commissions-3",
     "category": "commissions",
-    "title": "Commissions creation 3",
+    "title": "Custom cloned pet plushie",
     "images": [
       "products/commissions-grouped-3-1.jpeg"
     ]
@@ -29,7 +29,7 @@
   {
     "id": "commissions-4",
     "category": "commissions",
-    "title": "Commissions creation 4",
+    "title": "Custom monogrammed baby blanket",
     "images": [
       "products/commissions-grouped-4-1.jpeg"
     ]
@@ -37,7 +37,7 @@
   {
     "id": "commissions-5",
     "category": "commissions",
-    "title": "Commissions creation 5",
+    "title": "Custom monogrammed baby blanket",
     "images": [
       "products/commissions-grouped-5-1.jpeg"
     ]
@@ -45,7 +45,7 @@
   {
     "id": "accessories-1",
     "category": "accessories",
-    "title": "Accessories creation 1",
+    "title": "flower bookmark/keychain",
     "images": [
       "products/accessories-1-1.jpeg"
     ]
@@ -53,7 +53,7 @@
   {
     "id": "bags-1",
     "category": "bags",
-    "title": "Bags creation 1",
+    "title": "Bunny tote bag",
     "images": [
       "products/bags-1-1.jpeg"
     ]
@@ -80,7 +80,7 @@
   {
     "id": "scarves-hats-3",
     "category": "scarves-hats",
-    "title": "Scarves & Hats creation 3",
+    "title": "Pink, daisy bucket hat",
     "images": [
       "products/scarves-hats-3-1.jpeg"
     ]
@@ -88,7 +88,7 @@
   {
     "id": "scarves-hats-4",
     "category": "scarves-hats",
-    "title": "Scarves & Hats creation 4",
+    "title": "Black, frilled bucket hat",
     "images": [
       "products/scarves-hats-4-1.jpeg"
     ]
@@ -96,7 +96,7 @@
   {
     "id": "tops-bottoms-1",
     "category": "tops-bottoms",
-    "title": "fringe top",
+    "title": "fringe top, with spaghetti straps and corset-styled back",
     "images": [
       "products/tops-bottoms-1-1.jpeg",
       "products/tops-bottoms-1-2.jpeg"
@@ -105,7 +105,7 @@
   {
     "id": "animals-1",
     "category": "animals",
-    "title": "Animals creation 1",
+    "title": "Purple, Koala bear",
     "images": [
       "products/animals-1-1.jpeg",
       "products/animals-1-2.jpeg"
@@ -114,7 +114,7 @@
   {
     "id": "animals-2",
     "category": "animals",
-    "title": "Animals creation 2",
+    "title": "Monkey",
     "images": [
       "products/animals-2-1.jpeg",
       "products/animals-2-2.jpeg",
@@ -124,7 +124,7 @@
   {
     "id": "animals-3",
     "category": "animals",
-    "title": "Animals creation 3",
+    "title": "Teddy bear mini blanket",
     "images": [
       "products/animals-3-1.jpeg",
       "products/animals-3-2.jpeg"
@@ -133,7 +133,7 @@
   {
     "id": "animals-4",
     "category": "animals",
-    "title": "Animals creation 4",
+    "title": "Bunnies in clothes",
     "images": [
       "products/animals-4-1.jpeg",
       "products/animals-4-2.jpeg",
@@ -143,7 +143,7 @@
   {
     "id": "animals-5",
     "category": "animals",
-    "title": "Animals creation 5",
+    "title": "Mini bunny",
     "images": [
       "products/animals-5-1.jpeg"
     ]
@@ -151,7 +151,7 @@
   {
     "id": "animals-6",
     "category": "animals",
-    "title": "Animals creation 6",
+    "title": "Mini manta ray",
     "images": [
       "products/animals-6-1.jpeg"
     ]
@@ -159,7 +159,7 @@
   {
     "id": "animals-7",
     "category": "animals",
-    "title": "Animals creation 7",
+    "title": "Easter bunnies",
     "images": [
       "products/animals-7-1.jpeg"
     ]
@@ -167,7 +167,7 @@
   {
     "id": "animals-8",
     "category": "animals",
-    "title": "Animals creation 8",
+    "title": "Easter bunny",
     "images": [
       "products/animals-8-1.jpeg"
     ]
@@ -175,7 +175,7 @@
   {
     "id": "animals-9",
     "category": "animals",
-    "title": "Animals creation 9",
+    "title": "Mini Easter bunny",
     "images": [
       "products/animals-9-1.jpeg"
     ]
@@ -183,7 +183,7 @@
   {
     "id": "animals-10",
     "category": "animals",
-    "title": "Animals creation 10",
+    "title": "invertable mood octopus",
     "images": [
       "products/animals-10-1.jpeg"
     ]
@@ -191,7 +191,7 @@
   {
     "id": "animals-11",
     "category": "animals",
-    "title": "Animals creation 11",
+    "title": "Turtle",
     "images": [
       "products/animals-11-1.jpeg"
     ]
@@ -199,7 +199,7 @@
   {
     "id": "animals-12",
     "category": "animals",
-    "title": "Animals creation 12",
+    "title": "Seahorses",
     "images": [
       "products/animals-12-1.jpeg"
     ]
@@ -207,7 +207,7 @@
   {
     "id": "animals-13",
     "category": "animals",
-    "title": "Animals creation 13",
+    "title": "Heart cats",
     "images": [
       "products/animals-13-1.jpeg"
     ]
@@ -215,7 +215,7 @@
   {
     "id": "animals-14",
     "category": "animals",
-    "title": "Animals creation 14",
+    "title": "Octopus",
     "images": [
       "products/animals-14-1.jpeg"
     ]
@@ -223,7 +223,7 @@
   {
     "id": "animals-15",
     "category": "animals",
-    "title": "Animals creation 15",
+    "title": "Chickens",
     "images": [
       "products/animals-15-1.jpeg"
     ]
@@ -231,7 +231,7 @@
   {
     "id": "animals-16",
     "category": "animals",
-    "title": "Animals creation 16",
+    "title": "Long, floppy-eared bunnies",
     "images": [
       "products/animals-16-1.jpeg"
     ]
@@ -239,7 +239,7 @@
   {
     "id": "animals-17",
     "category": "animals",
-    "title": "Animals creation 17",
+    "title": "Hippo",
     "images": [
       "products/animals-17-1.jpeg"
     ]
@@ -247,7 +247,7 @@
   {
     "id": "animals-18",
     "category": "animals",
-    "title": "Animals creation 18",
+    "title": "Shark",
     "images": [
       "products/animals-18-1.jpeg"
     ]
@@ -255,7 +255,7 @@
   {
     "id": "animals-19",
     "category": "animals",
-    "title": "Animals creation 19",
+    "title": "Squid",
     "images": [
       "products/animals-19-1.jpeg"
     ]
@@ -263,7 +263,7 @@
   {
     "id": "bugs-1",
     "category": "bugs",
-    "title": "Bugs & Critters creation 1",
+    "title": "Caterpillars",
     "images": [
       "products/bugs-1-1.jpeg",
       "products/bugs-1-2.jpeg"
@@ -272,7 +272,7 @@
   {
     "id": "bugs-2",
     "category": "bugs",
-    "title": "Bugs & Critters creation 2",
+    "title": "Little critters",
     "images": [
       "products/bugs-2-1.jpeg"
     ]
@@ -280,7 +280,7 @@
   {
     "id": "fantasy-1",
     "category": "fantasy",
-    "title": "Fantasy Creatures creation 1",
+    "title": "Unicorn",
     "images": [
       "products/fantasy-1-1.jpeg",
       "products/fantasy-1-2.jpeg"
@@ -289,7 +289,7 @@
   {
     "id": "fantasy-2",
     "category": "fantasy",
-    "title": "Fantasy Creatures creation 2",
+    "title": "Christmas gnome",
     "images": [
       "products/fantasy-2-1.jpeg"
     ]
@@ -297,7 +297,7 @@
   {
     "id": "pop-char-1",
     "category": "pop-char",
-    "title": "Popular Characters creation 1",
+    "title": "Chester",
     "images": [
       "products/pop-char-1-1.jpeg",
       "products/pop-char-1-2.jpeg"
@@ -306,17 +306,16 @@
   {
     "id": "pop-char-2",
     "category": "pop-char",
-    "title": "Popular Characters creation 2",
+    "title": "",
     "images": [
       "products/pop-char-2-1.jpeg",
-      "products/pop-char-2-2.jpeg",
       "products/pop-char-2-3.jpeg"
     ]
   },
   {
     "id": "pop-char-3",
     "category": "pop-char",
-    "title": "Popular Characters creation 3",
+    "title": "La-boo-boo",
     "images": [
       "products/pop-char-3-1.jpeg",
       "products/pop-char-3-2.jpeg",
@@ -326,7 +325,7 @@
   {
     "id": "pop-char-4",
     "category": "pop-char",
-    "title": "Popular Characters creation 4",
+    "title": "Scooby",
     "images": [
       "products/pop-char-4-1.jpeg"
     ],
@@ -335,7 +334,7 @@
   {
     "id": "pop-char-5",
     "category": "pop-char",
-    "title": "Popular Characters creation 5",
+    "title": "Bluey",
     "images": [
       "products/pop-char-5-1.jpeg"
     ]
@@ -343,7 +342,7 @@
   {
     "id": "pop-char-6",
     "category": "pop-char",
-    "title": "Popular Characters creation 6",
+    "title": "Pooh Bear",
     "images": [
       "products/pop-char-6-1.jpeg"
     ]
@@ -351,7 +350,7 @@
   {
     "id": "pop-char-7",
     "category": "pop-char",
-    "title": "Popular Characters creation 7",
+    "title": "Howzit Kitty",
     "images": [
       "products/pop-char-7-1.jpeg"
     ]
@@ -359,7 +358,7 @@
   {
     "id": "pop-char-8",
     "category": "pop-char",
-    "title": "Popular Characters creation 8",
+    "title": "Crochet",
     "images": [
       "products/pop-char-8-1.jpeg"
     ]
@@ -367,7 +366,7 @@
   {
     "id": "pop-char-9",
     "category": "pop-char",
-    "title": "Popular Characters creation 9",
+    "title": "Mini Mike",
     "images": [
       "products/pop-char-9-1.jpeg"
     ]
@@ -375,7 +374,7 @@
   {
     "id": "pop-char-10",
     "category": "pop-char",
-    "title": "Popular Characters creation 10",
+    "title": "Popular Characters Collection",
     "images": [
       "products/pop-char-10-1.jpeg"
     ]
