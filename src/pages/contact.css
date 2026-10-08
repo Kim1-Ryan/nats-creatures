@@ -1,0 +1,136 @@
+.page-contact {
+        display: flex;
+        flex-direction: column;
+        background-color: #ba8cbe;
+        background-size: cover;
+        flex-wrap: wrap !important;
+        text-align: center;
+    }.page-contact #header {
+        display: flex;
+        flex-wrap: wrap !important;
+        justify-content: center;
+    }.page-contact .headerBranding {
+        padding: 0.5%;
+        border-radius: 45%;
+        align-self: center;
+    }.page-contact .headerBranding span {
+        display: none;
+    }
+
+    @media (max-width: 768px) {.page-contact .headerBranding a {
+            flex-direction: column; 
+            gap: 10px;              
+        }.page-contact .headerBranding img {
+            height: 80px;
+        }.page-contact .headerBranding span {
+            display: flex;
+        }.page-contact #headerName {
+            font-size: 2.5rem;
+            color: #1f1a32;
+            text-shadow: 2px 2px 4px #4f2962;
+            font-family: "Lilita One", bold;
+        }
+    }.page-contact .name {
+        color: #fffcd1;
+        font-family: "Lilita One", bold;
+        font-weight: 400;
+        font-style: bold;
+    }.page-contact #mainName {
+        font-size: 600%;
+        padding-top: 10px;
+        font-family: "Lilita One", bold;
+    }
+
+    @media (max-width: 992px) {.page-contact #mainName {
+            font-size: 480%;
+        }
+    }.page-contact #hero {
+        background-color: #4f2962;
+        width: 70%;
+        margin: 1%;
+        align-self: center;
+        border: 5px dashed #ff6c8f;
+        border-radius: 30%;
+        text-align: center;
+        padding: 1.5%;
+    }.page-contact .col-lg-6 {
+        width: 100%;
+        justify-items: center;
+        margin: 2px;
+    }.page-contact .lead {
+        width: 80%;
+        font-size: 200%;
+        color: #fffcd1;
+        font-family: "Lilita One", bold;
+    }.page-contact .d-grid {
+        gap: 70px;
+    }
+
+    @media (max-width: 720px) {.page-contact #hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            justify-content: center;
+            background-color: #4f2962;
+            width: 90%;
+            margin: 10px auto; 
+            border: 5px dashed #ff6c8f;
+            border-radius: 30px; 
+            padding: 1rem 1rem;
+        }.page-contact .col-lg-6 {
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }.page-contact .d-grid {
+            width: 100%;
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }.page-contact .text-body-secondary {
+            width: 80%;
+            max-width: 250px;
+            padding: 15px;
+            text-align: center;
+            justify-self: center;
+            text-decoration: none;
+            border: 6px solid #ba8cbe;
+            background-color: #9172a2;
+            border-radius: 20px;
+        }.page-contact .text-body-secondary:hover {
+            background-color: #ffc107;
+        }.page-contact #mainName {
+            font-size: 300%;
+            margin-top: 2%;
+        }.page-contact .lead {
+            font-size: 120%;
+        }
+    }.page-contact .text-body-secondary {
+        padding: 1%;
+        border-radius: 40%;
+    }.page-contact .text-body-secondary:hover {
+        background-color: #ba8cbe;
+    }
+    
+    @media (max-width: 992px) {.page-contact .d-grid {
+            gap: 40px;
+        }
+    }.page-contact #footer {
+        width: 100%;
+        text-align: center;
+    }.page-contact #footer span {
+        font-size: 160%;
+        color: #1f1a32;
+        text-shadow: 2px 2px 4px #4f2962;
+        font-family: "Lilita One", bold;
+    }
+
+    @media (max-width: 768px) {.page-contact #footer span {
+            font-size: 120%;
+        }.page-contact #footerLogo {
+            display: none;
+        }
+    }
+    

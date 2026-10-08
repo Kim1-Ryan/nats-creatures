@@ -1,0 +1,200 @@
+.page-catalogue {
+        display: flex;
+        flex-direction: column;
+        background-color: #ba8cbe;
+        background-size: cover;
+        flex-wrap: wrap !important;
+        text-align: center;
+    }.page-catalogue #header {
+        display: flex;
+        flex-wrap: wrap !important;
+        justify-content: space-between;
+    }
+
+    @media (max-width: 768px) {.page-catalogue #header {
+            flex-direction: column;
+            align-items: center;
+            align-self: center;
+        }
+    }.page-catalogue .headerBranding {
+        text-shadow: 2px 2px 4px #4f2962;
+        padding: 0.7%;
+        border-radius: 30%;
+        text-align: center;
+        align-self: center;
+    }.page-catalogue #headerName {
+        color: rgb(0, 0, 0);
+        font-family: "Lilita One", bold;
+        font-style: bold;
+    }
+
+    @media (max-width: 768px) {.page-catalogue .headerBranding a {
+            flex-direction: column;
+            gap: 10px;              
+        }.page-catalogue #headerName {
+            font-size: 2rem; 
+        }
+    }.page-catalogue #headerMenu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }.page-catalogue .nav-item {
+        margin: 10px;
+        background-color: #ffc107;
+        text-decoration: none;
+        border-radius: 10px;
+        text-align: center;
+        align-content: center;
+    }.page-catalogue .nav-item:hover {
+        background-color: #ffa7b8;
+        border-radius: 10px;
+        color: #1f1a32;
+    }.page-catalogue .nav-link {
+        text-decoration: none;
+        color: #1f1a32;
+        font-family: "Lilita One", bold;
+        font-size: 160%;
+        font-style: bold;
+        text-align: center;
+        align-content: center;
+    }.page-catalogue .nav-link:hover {
+        color: #4f2962;
+    }.page-catalogue .name {
+        color: #fffcd1;
+        font-family: "Lilita One", bold;
+        font-weight: 400;
+        font-style: bold;
+    }.page-catalogue #mobileHero {
+        display: none;
+    }.page-catalogue #hero {
+        background-color: #4f2962;
+        width: 70%;
+        align-self: center;
+        border: 5px dashed #ff6c8f;
+        border-radius: 30%;
+        text-align: center;
+        margin: 0.5%;
+        padding: 1%;
+        justify-self: center;
+    }.page-catalogue #mainName {
+        font-size: 600%;
+        justify-self: center;
+    }.page-catalogue .lead {
+        width: 89%;
+        font-size: 220%;
+        color: #fffcd1;
+        justify-self: center;
+        font-family: "Lilita One", bold;
+    }
+
+    @media (max-width: 768px) {.page-catalogue #hero {
+            display: none;
+        }.page-catalogue #mobileHero {
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            justify-content: center;
+            background-color: #4f2962;
+            width: 90%;
+            margin: 10px auto; 
+            border: 5px dashed #ff6c8f;
+            border-radius: 30px; 
+            padding: 1rem 1rem;
+        }.page-catalogue .col-lg-6 {
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }.page-catalogue .d-grid {
+            width: 100%;
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }.page-catalogue .text-body-secondary {
+            width: 80%;
+            max-width: 250px;
+            padding: 15px;
+            text-align: center;
+            justify-self: center;
+            text-decoration: none;
+            border: 6px solid #ba8cbe;
+            background-color: #9172a2;
+            border-radius: 20px;
+        }.page-catalogue .text-body-secondary:hover {
+            background-color: #ffc107;
+        }.page-catalogue #mainName2 {
+            font-size: 300%;
+            margin-top: 2%;
+        }
+    }.page-catalogue #priceCards {
+        width: 95%;
+        justify-self: center;
+        align-self: center;
+    }.page-catalogue .card {
+        background: transparent;
+        border: transparent;
+    }.page-catalogue .card-header {
+        background-color: #9172a2;
+        border: 2px dashed #ff6c8f;
+        border-bottom: 1px dashed #ff6c8f;
+        border-top: 0;
+        width: 100%;
+        align-self: center;
+        color: #fffcd1;
+        font-family: "Lilita One", bold;
+    }.page-catalogue .card-body {
+        color: #fffcd1;
+        font-family: "Lilita One", bold;
+        font-size: 170%;
+        background-color: #302a4d;
+        border: 2px dashed #ff6c8f;
+        border-top: 0;
+        border-radius: 0% 0% 40% 40%;
+    } 
+    
+    /* tablet / medium screens */
+    @media (min-width: 769px) and (max-width: 1199px) {.page-catalogue #mainName {
+            font-size: 400%; 
+        }.page-catalogue #hero {
+            width: 75%; 
+            padding: 2.5%;
+            border-radius: 15%; 
+        }.page-catalogue .lead {
+            font-size: 180%; 
+            width: 90%;
+        }.page-catalogue #priceCards {
+            width: 100%;
+            display: flex !important;      
+            flex-direction: column; 
+            align-items: center;           
+            justify-content: center;
+            margin: 0 auto;                 
+            gap: 12px; 
+        }.page-catalogue #priceCards .col {
+            width: 100%;
+            max-width: 400px;         
+            margin: 0 auto;
+        }.page-catalogue .card-header h2 {
+            font-size: 2.5rem !important;
+        }.page-catalogue .card-body {
+            font-size: 140%; 
+        }
+    }.page-catalogue #footer {
+        width: 100%;
+        text-align: center;
+    }.page-catalogue #footer span {
+        font-size: 160%;
+        color: #1f1a32;
+        text-shadow: 2px 2px 4px #4f2962;
+        font-family: "Lilita One", bold;
+    }
+
+    @media (max-width: 768px) {.page-catalogue #footer span {
+            font-size: 120%;
+        }.page-catalogue #footerLogo {
+            display: none;
+        }
+    }
+

@@ -1,0 +1,119 @@
+.page-plushies {
+            display: flex;
+            flex-direction: column;
+            background-color: #ba8cbe;
+            background-size: cover;
+            text-align: center;
+        }.page-plushies #header {
+            display: flex;
+            flex-wrap: wrap !important;
+            justify-content: center;
+        }
+        
+        @media (max-width: 768px) {.page-plushies .headerBranding img {
+                height: 80px;
+            }
+        }.page-plushies .name {
+            color: #fffcd1;
+            font-family: "Lilita One", sans-serif;
+            font-weight: bold;
+        }.page-plushies #mainName {
+            font-size: 600%;
+            padding-top: 6px;
+            margin: 1%;
+        }.page-plushies #hero {
+            background-color: #4f2962;
+            width: 70%;
+            margin: 1%;
+            align-self: center;
+            border: 5px dashed #ff6c8f;
+            border-radius: 30%;
+            text-align: center;
+            padding: 1.5%;
+        }.page-plushies .col-lg-6 {
+            width: 100%;
+            margin: 2%;
+            font-family: "Lilita One", sans-serif;
+            font-weight: bold;
+        }.page-plushies .text-body-secondary {
+            display: inline-flex !important;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 150px; 
+            height: 150px; 
+            padding: 10px !important; 
+            text-align: center;
+            text-decoration: none;
+            border: 6px solid #ba8cbe;
+            background-color: #9172a2;
+            border-radius: 50% !important; 
+        }.page-plushies .text-body-secondary:hover {
+            background-color: #ffc107;
+        }.page-plushies .text-body-secondary h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 1.2rem;
+            color: #fffcd1;
+        }.page-plushies .text-body-secondary:hover h3 {
+            color: #1f1a32 !important;
+        }.page-plushies .d-grid {
+            display: flex !important;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        /* Tablet Screens */
+        @media (max-width: 992px) {.page-plushies #mainName {
+                font-size: 480%;
+            }.page-plushies .d-grid {
+                gap: 20px;
+            }.page-plushies .text-body-secondary {
+                width: 130px; /* make divs even smaller on smaller screens */
+                height: 130px;
+            }.page-plushies .text-body-secondary h3 {
+                font-size: 1.1rem;
+            }
+        }
+        
+        /* Mobile Screens */
+        @media (max-width: 768px) {.page-plushies #hero {
+                width: 90%;
+                margin: 10px auto; 
+                border-radius: 30px; 
+                padding: 1rem;
+            }.page-plushies #mainName {
+                font-size: 300%;
+                margin-top: 2%;
+            }.page-plushies .col-lg-6 {
+                width: 100%;
+                margin: 0 auto;
+            }.page-plushies .d-grid {
+                flex-direction: column; /* stacks items vertically on phone screens */
+                align-items: center;
+                gap: 15px;
+            }.page-plushies .text-body-secondary {
+                width: 120px; /* smaller on mobile */
+                height: 120px;
+            }
+        }.page-plushies #footer {
+            width: 100%;
+            text-align: center;
+        }.page-plushies #footer span {
+            font-size: 160%;
+            color: #1f1a32;
+            text-shadow: 2px 2px 4px #4f2962;
+            font-family: "Lilita One", sans-serif;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {.page-plushies #footer span {
+                font-size: 120%;
+            }.page-plushies #footerLogo {
+                display: none !important;
+            }
+        }
+
+    

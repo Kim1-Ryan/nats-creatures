@@ -1,0 +1,154 @@
+.page-all-products {
+            display: flex;
+            flex-direction: column;
+            background-color: #ba8cbe;
+            background-size: cover;
+            text-align: center;
+        }.page-all-products #header {
+            display: flex;
+            justify-content: center;
+        }.page-all-products #headerLogo {
+            height: 300px;
+            align-items: center;
+            justify-self: center;
+        }.page-all-products #mainName {
+            color: #fffcd1;
+            font-size: 650%;
+            font-family: "Lilita One", bold;
+        }
+
+        @media (max-width: 992px) {.page-all-products #mainName {
+                font-size: 480%;
+            }
+        }.page-all-products .quilt-container {
+            display: grid;
+            align-self: center;
+            grid-template-columns: repeat(7, 250px); /* number of columns */
+            grid-template-rows: repeat(7, 250px);
+            gap: 2px; /* simulates seam lines */
+            background-color: transparent;
+            }.page-all-products .patch {
+            width: 250px;
+            height: 250px;
+        }.page-all-products .tablet-only-patch {
+            display: none;
+        }.page-all-products .color-a { 
+            background-color: #ffa7b8;
+            background-size: cover;
+            border: 3px solid #ffc107;
+        }.page-all-products .color-b { 
+            background-color: #9172a2;
+            background-size: cover;
+            border: 3px solid #ffc107;
+        }
+
+        /* mobile screens */
+        @media (max-width: 768px) {.page-all-products #headerLogo {
+                height: 100px;
+            }.page-all-products #mainName {
+                margin-top: 1%;
+                font-size: 250%;
+            }.page-all-products .quilt-container {
+                grid-template-columns: repeat(3, 117px);
+                grid-template-rows: repeat(3, 117px);
+                gap: 0px;
+                border-bottom: 3px solid #ffc107;
+                border-right: 3px solid #ffc107;
+                box-sizing: border-box;
+            }.page-all-products .patch {
+                width: 117px;
+                height: 117px;
+                border-radius: 0 !important;
+                border-top: 3px solid #ffc107 !important;
+                border-left: 3px solid #ffc107 !important;
+                border-right: none !important;
+                border-bottom: none !important;
+                box-sizing: border-box;
+            }.page-all-products #last {
+                display: none;
+            }
+        }
+
+        /* tablet screens */
+        @media (min-width: 769px) and (max-width: 992px) {.page-all-products .tablet-only-patch {
+                display: block !important; /* reveals */
+            }.page-all-products .quilt-container {
+                grid-template-columns: repeat(5, 150px);
+                grid-template-rows: auto;
+                gap: 0px;
+                border-bottom: 3px solid #ffc107;
+                border-right: 3px solid #ffc107;
+                box-sizing: border-box;
+            }.page-all-products .patch {
+                width: 150px;
+                height: 150px;
+                border-radius: 0 !important;
+                border-top: 3px solid #ffc107 !important;
+                border-left: 3px solid #ffc107 !important;
+                border-right: none !important;
+                border-bottom: none !important;
+                box-sizing: border-box;
+            }
+        }
+
+        /* desktop screens - medium */
+        @media (min-width: 993px) and (max-width: 1600px) {.page-all-products .tablet-only-patch {
+                display: block !important; /* reveals */
+            }.page-all-products .quilt-container {
+                grid-template-columns: repeat(5, 197px);
+                grid-template-rows: auto;
+                gap: 0px;
+                border-bottom: 3px solid #ffc107;
+                border-right: 3px solid #ffc107;
+                box-sizing: border-box;
+            }.page-all-products .patch {
+                width: 197px;
+                height: 197px;
+                border-radius: 0 !important;
+                border-top: 3px solid #ffc107 !important;
+                border-left: 3px solid #ffc107 !important;
+                border-right: none !important;
+                border-bottom: none !important;
+                box-sizing: border-box;
+            }
+        }
+
+        /* desktop screens - large */
+        @media (min-width: 1601px) and (max-width: 1700px) {.page-all-products .quilt-container {
+                grid-template-columns: repeat(5, 260px);
+                grid-template-rows: repeat(5, 260px);
+                gap: 0px;
+                border-bottom: 3px solid #ffc107;
+                border-right: 3px solid #ffc107;
+                box-sizing: border-box;
+            }.page-all-products .patch {
+                width: 260px;
+                height: 260px;
+                border-top: 3px solid #ffc107 !important;
+                border-left: 3px solid #ffc107 !important;
+                border-right: none !important;
+                border-bottom: none !important;
+                box-sizing: border-box;
+            }
+        }.page-all-products #footer {
+            width: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }.page-all-products #footer p {
+            font-size: 160%;
+            color: #1f1a32;
+            text-shadow: 2px 2px 4px #4f2962;
+            font-family: "Lilita One", bold;
+        }
+
+        @media (max-width: 768px) {.page-all-products #footer span {
+                font-size: 120%;
+            }.page-all-products #footerLogo {
+                display: none;
+            }
+        }
+
+    

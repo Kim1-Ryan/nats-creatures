@@ -1,0 +1,183 @@
+.page-pricing {
+        display: flex;
+        flex-direction: column;
+        background-color: #ba8cbe;
+        background-size: cover;
+        flex-wrap: wrap !important;
+        text-align: center;
+    }.page-pricing #header {
+        display: flex;
+        flex-wrap: wrap !important;
+        justify-content: space-between;
+    }
+
+    @media (max-width: 992px) {.page-pricing #header {
+            flex-direction: column;
+            align-items: center;
+        }
+    }.page-pricing .headerBranding {
+        text-shadow: 2px 2px 4px #4f2962;
+        padding: 0.7%;
+        border-radius: 30%;
+        text-align: center;
+        align-self: center;
+    }.page-pricing #headerName {
+        color: rgb(0, 0, 0);
+        font-family: "Lilita One", bold;
+        font-style: bold;
+    }
+
+    @media (max-width: 768px) {.page-pricing .headerBranding a {
+            flex-direction: column;
+            gap: 10px;              
+        }.page-pricing .headerBranding img {
+            height: 80px
+        }.page-pricing #headerName {
+            font-size: 2.5rem !important; 
+        }.page-pricing .nav-link {
+            font-size: 140%;
+        }
+    }.page-pricing #headerMenu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }.page-pricing .nav-item {
+        margin: 10px;
+        background-color: #ffc107;
+        text-decoration: none;
+        border-radius: 10px;
+        text-align: center;
+        align-content: center;
+    }.page-pricing .nav-item:hover {
+        background-color: #ffa7b8;
+        border-radius: 10px;
+        color: #1f1a32;
+    }.page-pricing .nav-link {
+        text-decoration: none;
+        color: #1f1a32;
+        font-family: "Lilita One", bold;
+        font-size: 160%;
+        font-style: bold;
+        text-align: center;
+        align-content: center;
+    }.page-pricing .nav-link:hover {
+        color: #4f2962;
+    }.page-pricing .name {
+        color: #fffcd1;
+        font-family: "Lilita One", bold;
+        font-weight: 400;
+        font-style: bold;
+    }.page-pricing #hero {
+        background-color: #4f2962;
+        width: 80%;
+        margin: 0.9%;
+        align-self: center;
+        border: 5px dashed #ff6c8f;
+        border-radius: 30%;
+        text-align: center;
+        padding: 1.5%;
+        justify-self: center;
+    }.page-pricing #mainName {
+        font-size: 600%;
+        justify-self: center;
+    }.page-pricing .lead {
+        width: 89%;
+        font-size: 220%;
+        color: #fffcd1;
+        justify-self: center;
+        font-family: "Lilita One", bold;
+    }.page-pricing #priceCards {
+        width: 90%;
+        justify-self: center;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    /* mobile screens */
+    @media (max-width: 768px) {.page-pricing #mainName {
+            font-size: 270%;
+            padding-top: 4%;
+        }.page-pricing #hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            justify-content: center;
+            width: 90%;
+            margin: 10px auto; 
+            border-radius: 30px; 
+            padding: 1rem 1rem;
+        }.page-pricing .lead {
+            font-size: 140%;
+            width: 80%;
+        }.page-pricing #priceCards {
+            width: 80%;
+            padding: 3%;
+            flex-direction: column;
+        }.page-pricing .card-header h2 {
+            font-size: 1.8rem !important;
+        }.page-pricing .card-body .list-unstyled li {
+            font-size: 1.2rem !important;
+        }
+    }
+
+    /* tablet / medium screens */
+    @media (min-width: 769px) and (max-width: 1199px) {.page-pricing #mainName {
+            font-size: 400%; 
+        }.page-pricing #hero {
+            width: 75%; 
+            padding: 2.5%;
+            border-radius: 15%; 
+        }.page-pricing .lead {
+            font-size: 180%; 
+            width: 90%;
+        }.page-pricing #priceCards {
+            width: 65%;
+            flex-direction: column; 
+            gap: 12px; 
+        }.page-pricing .card-header h2 {
+            font-size: 2rem !important;
+        }.page-pricing .card-body {
+            font-size: 110%; 
+        }
+    }.page-pricing .card {
+        background: transparent;
+        border: transparent;
+    }.page-pricing .card-header {
+        background-color: #9172a2;
+        border: 2px dashed #ff6c8f;
+        border-bottom: 1px dashed #ff6c8f;
+        border-top: 0;
+        width: 100%;
+        align-self: center;
+        color: #fffcd1;
+        font-family: "Lilita One", bold;
+    }.page-pricing .card-body {
+        color: #fffcd1;
+        font-family: "Lilita One", bold;
+        font-size: 170%;
+        background-color: #302a4d;
+        border: 2px dashed #ff6c8f;
+        border-top: 0;
+        border-radius: 0% 0% 40% 40%;
+    }.page-pricing #footer {
+        width: 100%;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+    }.page-pricing #footer span {
+        font-size: 150%;
+        color: #1f1a32;
+        text-shadow: 2px 2px 4px #4f2962;
+        font-family: "Lilita One", bold;
+        text-align: center; 
+    }
+            
+    @media (max-width: 768px) {.page-pricing #footer span {
+            font-size: 120%;
+        }.page-pricing #footerLogo {
+            display: none;
+        }
+    }
+
