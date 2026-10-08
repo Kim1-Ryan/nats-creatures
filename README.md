@@ -54,3 +54,12 @@ focus to the selected quilt square.
 
 To add or rename an item, edit `src/products.json` and put its image files in
 `public/products/`. The original OneDrive photos are unchanged.
+
+## GitHub Pages deployment
+
+The `.github/workflows/deploy.yml` workflow installs dependencies, builds the
+React app with the GitHub Pages repository path, and deploys `dist` on pushes
+to `main`. In GitHub, set Settings > Pages > Build and deployment > Source to
+GitHub Actions. Commit and push the workflow, then check the Actions tab for
+"Deploy website to GitHub Pages". Subsequent pushes rebuild the site automatically.
+Do not publish the source index.html directly: it points to JSX that requires Vite.
