@@ -103,6 +103,16 @@
     ]
   },
   {
+    "id": "animals-springbok",
+    "category": "animals",
+    "title": "Springbok",
+    "images": [
+      "products/springbok-1.jpeg",
+      "products/springbok-2.jpeg",
+      "products/springbok-3.jpeg"
+    ]
+  },
+  {
     "id": "animals-1",
     "category": "animals",
     "title": "Purple, Koala bear",
